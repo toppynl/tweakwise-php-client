@@ -8,10 +8,8 @@
         "inputSpec": "https://gateway.tweakwisenavigator.com/content/swagger/swagger-prod.yaml",
         "output": ".",
         "generatorName": "php",
-        "gitHost": "github.com",
-        "gitUserId": "toppynl",
-        "gitRepoId": "tweakwise-php-client",
         "additionalProperties": {
+          "packageName": "toppy/tweakwise-client",
           "artifactUrl": "https://docs.tweakwise.com",
           "artifactVersion": "1.0.0",
           "developerOrganization": "Toppy",
