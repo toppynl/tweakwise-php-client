@@ -1,0 +1,29 @@
+{
+  "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "7.14.0",
+    "generators": {
+      "tweakwise": {
+        "inputSpec": "https://gateway.tweakwisenavigator.com/content/swagger/swagger-prod.yaml",
+        "output": ".",
+        "generatorName": "php",
+        "gitHost": "github.com",
+        "gitUserId": "toppynl",
+        "gitRepoId": "tweakwise-php-client",
+        "additionalProperties": {
+          "artifactUrl": "https://docs.tweakwise.com",
+          "artifactVersion": "1.0.0",
+          "developerOrganization": "Toppy",
+          "developerOrganizationUrl": "https://github.com/toppynl",
+          "composerPackageName": "toppy/tweakwise-client",
+          "invokerPackage": "Toppy\\TweakwiseClient",
+          "library": "psr-18",
+          "licenseName": "MIT",
+          "srcBasePath": "src",
+          "variableNamingConvention": "camelCase"
+        }
+      }
+    }
+  }
+}
