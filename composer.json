@@ -1,5 +1,5 @@
 {
-    "name": "toppynl/tweakwise-php-client",
+    "name": "toppy/tweakwise-client",
     "version": "1.0.0",
     "description": "Tweakwise API.  Tweakwise offers differing REST services that can be called from various URLs and separate parameters. Response in XML and JSON format is offered for all services. XML is the default format, JSON format is also possible by adding ‘format=json’ to the call. Parameters are sent along with the query string (GET Request) via the URL.  ---  Authentication  Authentication takes place by means of a unique key valid for each instance. This key is sent along with the particular service immediately after the call and must be placed before any parameters. This key is issued by Tweakwise.",
     "keywords": [
