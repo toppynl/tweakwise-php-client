@@ -11,7 +11,7 @@
         "additionalProperties": {
           "packageName": "toppy/tweakwise-client",
           "artifactUrl": "https://docs.tweakwise.com",
-          "artifactVersion": "1.0.0",
+          "artifactVersion": "1.0.1",
           "developerOrganization": "Toppy",
           "developerOrganizationUrl": "https://github.com/toppynl",
           "composerPackageName": "toppy/tweakwise-client",
